@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-data {
+  display: flex;
+  min-width: 80vw;
+  min-height: 55px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #500050;
+  border: white 2px solid;
+  border-radius: 24px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.label {
+  padding-left: 10px;
+}
+
+.image {
+  width: 100px;
+}
